@@ -1,6 +1,6 @@
 # webgl toy claw
 
-基于 [pixijs](https://github.com/pixijs)渲染引擎 与 matterjs(https://github.com/liabru/matter-js)物理引擎实现的娃娃机
+基于 [pixijs](https://github.com/pixijs)渲染引擎 与 [matterjs](https://github.com/liabru/matter-js)物理引擎实现的娃娃机
 
 ## demo
 
