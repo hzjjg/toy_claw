@@ -1,0 +1,1 @@
+export type GameStatus = 'play'|'stop'|'end';

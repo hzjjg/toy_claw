@@ -1,0 +1,50 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.hide{
+    display: none !important;
+}
+
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.loader {
+  margin: 60px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999px;
+  border-top: 10px solid rgba($color: #000, $alpha: .1);
+  border-right: 10px solid rgba($color: #000, $alpha: .1);
+  border-bottom: 10px solid rgba($color: #000, $alpha: .1);
+  border-left: 10px solid #3C82FF;
+  transform: translateZ(0);
+  animation: load8 1.1s infinite linear;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
