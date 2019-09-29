@@ -15,7 +15,6 @@ const vertices = [
     { x: 30, y: -120 },
     { x: 45, y: -115 },
     { x: 65, y: -80 },
-
     { x: 60, y: 60 },
     { x: -60, y: 60 },
 ];
@@ -35,52 +34,52 @@ const toyClaw = new ToyClaw({
     prizes: [
         {
             id: '1',
-            imgUrl: 'https://wallpaper1.meitudata.com/lottery/5bdc18849a8b79576.png',
+            imgUrl: require('./assets/5bdc18849a8b79576.png'),
             vertices,
         },
         {
             id: '',
-            imgUrl: 'https://wallpaper1.meitudata.com/lottery/5bdc1b3939e30473.png',
+            imgUrl: require('./assets/5bdc1b3939e30473.png'),
             vertices,
         },
         {
             id: '',
-            imgUrl: 'https://wallpaper1.meitudata.com/lottery/5bdc1edce2fcd6877.png',
+            imgUrl: require('./assets/5bdc1edce2fcd6877.png'),
             vertices,
         },
         {
             id: '',
-            imgUrl: 'https://wallpaper1.meitudata.com/lottery/5bdc22b7b67cb4215.png',
+            imgUrl: require('./assets/5bdc22b7b67cb4215.png'),
             vertices,
         },
         {
             id: '',
-            imgUrl: 'https://wallpaper1.meitudata.com/lottery/5bdfbad6e4bdf6611.png',
+            imgUrl: require('./assets/5bdfbad6e4bdf6611.png'),
             vertices,
         },
         {
             id: '',
-            imgUrl: 'https://wallpaper1.meitudata.com/lottery/5bdfe7e731aed1460.png',
+            imgUrl: require('./assets/5bdfe7e731aed1460.png'),
             vertices,
         },
         {
             id: '',
-            imgUrl: 'https://wallpaper1.meitudata.com/lottery/5bdbdf8f657227641.png',
+            imgUrl: require('./assets/5bdbdf8f657227641.png'),
             vertices,
         },
         {
             id: '',
-            imgUrl: 'https://wallpaper1.meitudata.com/lottery/5bdbdf8307a1c7003.png',
+            imgUrl: require('./assets/5bdbdf8307a1c7003.png'),
             vertices,
         },
         {
             id: '',
-            imgUrl: 'https://wallpaper1.meitudata.com/lottery/5bdbdfb2484558276.png',
+            imgUrl: require('./assets/5bdbdfb2484558276.png'),
             vertices,
         },
         {
             id: '',
-            imgUrl: 'https://wallpaper1.meitudata.com/lottery/5bdbe018a531b5259.png',
+            imgUrl: require('./assets/5bdbe018a531b5259.png'),
             vertices,
         },
     ],
